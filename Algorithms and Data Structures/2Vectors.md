@@ -38,16 +38,16 @@ store![o,k]: v[k] ← o
 
 ## Implementation
 
--	Sentinel (C Strings)
+*	Sentinel (C Strings)
 
-	| 0 | 1 | 2 | 3 | 4 | $ |
+	| 0 |1 |2 |3 |4| $ |
 	|---|---|---|---|---|---|
 
-  - It **iterates through string until the sentinel($)** to get the length
+	*	**Iterates through string until the sentinel($)** to get the length
 
-- Length-data (everything else)
+* 	length-data (everything else)
 
-	| L | 0 | 1 | 2 | 3 | 4 |
+	|L| 0 |1 |2 |3 |4|
 	|---|---|---|---|---|---|
 
-	-	Read the **length slot(L)** to get the length.
+	*	Read the **length slot(L)** to get the length.
