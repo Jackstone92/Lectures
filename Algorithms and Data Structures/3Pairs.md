@@ -33,3 +33,26 @@ set-right![o]: RIGHT(p) ← o
 Constructor:
 new Pair(l, r)
 ```
+
+# Implementation
+| 3 | 4 |
+|---|---|
+
+# Complexity analysis
+**left, set-left!, right, set-right!**
+1. pointer read (left, right) or write (set-left!, set-right!)
+
+
+**Constructor**
+1. fixed-size (two-word) allocation
+2. two pointer writes
+
+# Higher-cardinality tuples
+**(a, b, c)**
+- ((a, b), c)
+
+**(a, b, c, d)**
+- (((a, b), c), d)
+
+**(a, b, ..., z)**
+- ((a, b)... z)
