@@ -58,7 +58,7 @@ return 1 = 1
 // true
 ```
 
-`## if`
+## `if`
 Use **if then** to decide whether to do a sequence or not.  
 End the sequence with **end if**
 ```
@@ -68,7 +68,7 @@ if x > -6 then
 end if
 ```
 
-## else
+## `else`
 Use **else** to delimit a sequence to execute if the conditional is **not** true
 ```
 x ← 0
@@ -79,7 +79,7 @@ else
 end if
 ```
 
-## else if
+## `else if`
 Define chains of conditionals using **else if**. At most one of the sequences is executed.
 ```
 x ← 0
@@ -95,7 +95,7 @@ endif
 ```
 
 # Loops
-## For
+## `for`
 To loop with a variable bound to a series of numbers, use **for** with a description of the series:
 ```
 x ← 0
@@ -118,7 +118,7 @@ for 100 > i ≥ 0 do
 end for
 ```
 
-### Continue
+### `continue`
 Use **continue** to proceed directly to the next iteration of the innermost loop:
 ```
 x ← 0
@@ -131,7 +131,7 @@ for 0 ≤ i < 10 do
 end for
 ```
 
-### Break
+### `creak`
 Use **break** to finish the innermost loop:
 ```
 x ← 0
