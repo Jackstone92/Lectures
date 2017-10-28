@@ -12,7 +12,7 @@
   - how big will my data grow?
   - will my existing solution still work adequately at scale?
 
-# Big-O
+# Big-O (≤)
 `𝑓 (𝑥) = 𝑂(𝑔(𝑥)) or𝑓 (𝑥) ∈ 𝑂(𝑔(𝑥))`
 
 ### Informally:
