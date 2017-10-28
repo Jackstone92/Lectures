@@ -154,3 +154,53 @@ for 0 ≤ i < 3 do
   end for
 end for
 ```
+
+## `forall`
+Iterate over members of a collection using forall:
+```
+x ← 0
+  for all p ∈ prime numbers below 10 do
+  x ← x + 1
+end for
+```
+
+### Ordering
+There may be a natural order to the iteration (eg. when iterating over a linear collection), but usually there won't be. Don't rely on a particular order!
+
+## `while`
+Use **while** to express a loop which tests a condition at the *start* of a sequence, and if that condition is *true*, does another iteration of the loop:
+```
+x ← 0
+y ← 3
+while y > 0 do
+  x ← x + 1
+  y ← y − 1
+end while
+```
+
+## `repeat`
+Use **repeat until** to express a loop which tests a condition at the *end* of a sequence, and if that condition is *false*, does another iteration of the loop:
+```
+x ← 0
+y ← 3
+repeat
+  x ← x + 1
+  y ← y − 1
+until y < 0
+```
+
+## `loop`
+Use **loop** to express an unconditional loop.  
+You will need to use **break** to terminate the loop!
+```
+x ← 11342
+loop
+  if x = 1 then
+    break
+  else if x is even then
+    x ← x ÷ 2
+  else
+    x ← 3 × x + 1
+  end if
+end loop
+```
