@@ -83,7 +83,13 @@
 
 # Common complexity classes
 
-|  Rank | Time complexity |
-|  ---  |       ---       |
-|   1.  |       Θ(1)      |
-|   2.  |    Θ(log(n))    |
+|  Rank | Time complexity               |
+|  ---  |       ---                     |
+|   1.  |       Θ(1)                    |
+|   2.  |    Θ(log(𝑛))                  |
+|   3.  |   Θ((log(𝑛))<sup>1+c</sup>    |
+|   4.  |       Θ(𝑛)                    |
+|   5.  |    Θ(𝑛log(𝑛))                 |
+|   6.  |    Θ(𝑛<sup>1+c</sup>)         |
+|   7.  |    Θ(2<sup>𝑛</sup>)           |
+|   8.  |       Θ(𝑛!)                   |
