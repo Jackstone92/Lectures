@@ -204,3 +204,47 @@ loop
   end if
 end loop
 ```
+
+---
+
+# Functions
+Define functions using **function**, and return a value using **return**
+```
+function fact(n)
+  if n = 0 then
+    return 1
+  else
+    return n × fact(n−1)
+  end if
+end function
+```
+
+## Function calls
+Functions have zero or more arguments and return one result. Call them using their name, with arguments in brackets
+```
+n ← 5
+x ← fact(n)
+```
+
+## Pre- and post- conditions
+Make it clear to the reader what conditions a function requires to operate correctly, and what it does if those conditions are mathematical
+```
+Require: n ∈ ℕ₀
+Ensure: Compute and return n!
+  function fact(n)
+    if n = 0 then
+      return 1
+    else
+      return n × fact(n−1)
+    end if
+  end function
+```
+
+### Pre-conditions
+Things are required to be `true` **before** a function or a method is abled to be called.
+
+### Post-conditions
+Things are must be `true` **after** a function or a method is complete.
+
+### Invariants
+Things are always `true` before running a method or a function, and stay `true` after a method is complete
