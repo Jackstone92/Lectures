@@ -16,7 +16,7 @@ Pseudocode is an informal, high-level description of the operation of a computer
 # General
 
 ## Variable assignment
-Variable assignment is indicated by the `&larr;` symbol:
+Variable assignment is indicated by the &larr; symbol:
    x &larr; 1
 
 Variables in pseudocode do not need to be declared
