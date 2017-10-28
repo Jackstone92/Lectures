@@ -58,7 +58,7 @@ return 1 = 1
 // true
 ```
 
-## if
+`## if`
 Use **if then** to decide whether to do a sequence or not.  
 End the sequence with **end if**
 ```
