@@ -59,3 +59,30 @@ Require: A :: dynamic array
     right(A) ← right(A) + 1
   end function
 ```
+
+# Extend
+From:
+
+| Ptr | L' |
+| --- |--- |
+
+| 5 | 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|
+
+To:
+
+| 9 | 0 | 1 | 2 | 3 | 4 |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|
+
+Pseudocode:
+```
+Require: A :: dynamic array
+  function extend(A)
+    newL ← newLength(right(A))
+    new ← new Vector(newL)
+    for 0 ≤ i < length(A) do
+      new[i] ← left(A)[i]
+    end for
+    left(A) ← new
+  end function
+```
