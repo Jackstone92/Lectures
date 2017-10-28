@@ -43,7 +43,7 @@ store![o,k]: v[k] ← o
 	| 0 | 1 | 2 | 3 | 4 | $ |
 	|---|---|---|---|---|---|
 
-  *	**Iterates through string until the sentinel($)** to get the length
+  *  **Iterates through string until the sentinel($)** to get the length
 
 * length-data (everything else)
 
