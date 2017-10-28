@@ -31,12 +31,12 @@ select[k]: v[k]
 store![o,k]: v[k] ← o
 ```
 
-## Non-vector Operations
+# Non-vector Operations
 - delete!
 - insert!
 - resize!
 
-## Implementation
+# Implementation
 
 *	Sentinel (C Strings)
 
