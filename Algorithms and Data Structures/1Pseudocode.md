@@ -10,10 +10,8 @@ Pseudocode is an informal, high-level description of the operation of a computer
   * walk-through by humans
   * reasonable
 
-
 ---
 
-  
 # General
 
 ## Variable assignment
@@ -48,6 +46,18 @@ Use mathematical notation (not code notation) in pseudocode:
 - ≤, ≥ (not <=, =>, >=)
 - ∨, ∧, ¬
 
+# Equality operators
+### Use `=` as equality operator (**not** assignment operator)
+Instead of `==`, pseudocode uses `=` to compare two variables.
+eg.
+```
+return 1 = 3
+// false
+
+return 1 = 1
+// true
+```
+
 ## if
 Use **if then** to decide whether to do a sequence or not.  
 End the sequence with **end if**
@@ -62,9 +72,24 @@ end if
 Use **else** to delimit a sequence to execute if the conditional is **not** true
 ```
 x <- 0
-if x> 17 then
+if x > 17 then
   x <- x + 1
 else
   x <- x - 1
 end if
+```
+
+## else if
+Define chains of conditionals using **else if**. At most one of the sequences is executed.
+```
+x <- 0
+if x > 3 then
+  x <- 5
+else if x > -3 then
+  x <- 7
+else if x > -8 then
+  x <- 9
+else
+  x <- 11
+endif
 ```
