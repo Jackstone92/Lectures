@@ -1,5 +1,7 @@
 # Vectors
 
+---
+
 # Motivation
 - Useful abstraction of memory
 - Basic building block

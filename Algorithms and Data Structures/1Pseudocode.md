@@ -1,5 +1,7 @@
 # Introduction to Pseudocode
 
+---
+
 ## Definition:
 Pseudocode is an informal, high-level description of the operation of a computer program or other algorithm
 
