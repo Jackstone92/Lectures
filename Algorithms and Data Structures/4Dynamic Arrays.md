@@ -90,6 +90,9 @@ What should NEWLENGTH(n) be?
 - return C x n (eg. 2xn)?
 - return  n<sup>C</sup> (eg. n<sup>2</sup>)?  
 
+# Storage overhead
+The amount of unused space in the array 
+
 # Complexity analysis
 **length, select, store!**
 - each is a pointer read (to get the storage array) and a Θ(1) array operation  
