@@ -62,7 +62,7 @@ How much work do operations take?
 2. pointer read (select) or write (store!)
 
 ## length
-Depends on implementation strategy:
+Depends on implementation strategy:  
 **Sentinel**
 1. initialise count to 0, position to 0
 2. iterate position through string, incrementing count until the sentinel ($)
