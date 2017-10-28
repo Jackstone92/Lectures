@@ -117,3 +117,40 @@ for 100 > i ≥ 0 do
   x ← i
 end for
 ```
+
+### Continue
+Use **continue** to proceed directly to the next iteration of the innermost loop:
+```
+x ← 0
+for 0 ≤ i < 10 do
+  x ← x + 1
+  if x > 3 then
+    continue
+  end if
+  x ← x + i
+end for
+```
+
+### Break
+Use **break** to finish the innermost loop:
+```
+x ← 0
+for 0 ≤ i < 10 do
+  x ← x + 1
+  if x > 3 then
+    break
+  end if
+  x ← x + i
+end for
+```
+
+### Nested Loops
+With nested loops, for each iteration of an outer loop, do the whole inner loop:
+```
+x ← 0
+for 0 ≤ i < 3 do
+  for 0 ≤ j < 4 do
+    x ← x + 1
+  end for
+end for
+```
