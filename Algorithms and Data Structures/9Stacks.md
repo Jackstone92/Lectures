@@ -27,23 +27,23 @@
 
 # Implementation
 
-| Ptr (to pointer below) |
+| Ptr (to below) |
 | --- |
 
 &darr;
 
-| Ptr (to "foo") |
-| --- |
+| Ptr (to "foo") | Ptr (to below) |
+| --- | --- |
 
 &darr;
 
-| Ptr (to "bar") |
-| --- |
+| Ptr (to "bar") | Ptr (to below) |
+| --- | --- |
 
 &darr;
 
-| Ptr (to "baz") |
-| --- |
+| Ptr (to "baz") | Ptr (to below) |
+| --- | --- |
 
 
 # Complexity analysis
