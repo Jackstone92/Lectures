@@ -93,3 +93,27 @@ else
   x <- 11
 endif
 ```
+
+# Loops
+## For
+To loop with a variable bound to a series of numbers, use **for** with a description of the series:
+```
+x <- 0
+for 0 ≤ i < 100 do
+  x <- x + 1
+end for
+```
+
+The order might matter: start with the **left-hand** bound and move towards the right-hand one.
+
+```
+x ← 0
+for 0 ≤ i < 100 do
+  x ← i
+end for
+
+x ← 0
+for 100 > i ≥ 0 do
+  x ← i
+end for
+```
