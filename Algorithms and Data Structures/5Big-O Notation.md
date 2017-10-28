@@ -83,6 +83,8 @@
 
 # Common complexity classes
 
+Slowest growth (1.) to Fastest growth (9.)  
+
 |  Rank | Time complexity               |
 |  ---  |       ---                     |
 |   1.  |       Θ(1)                    |
@@ -93,3 +95,4 @@
 |   6.  |    Θ(𝑛<sup>1+c</sup>)         |
 |   7.  |    Θ(2<sup>𝑛</sup>)           |
 |   8.  |       Θ(𝑛!)                   |
+|   9.  |    Θ(𝑛<sup>𝑛</sup>)           |
