@@ -5,7 +5,7 @@ Pseudocode is an informal, high-level description of the operation of a computer
 
 ## Implications:
 * use simplest way to describe things
-..* even if that is in English
+  * even if that is in English
 * not executable by a computer
-..* walk-through by humans
-..* reasonable
+  * walk-through by humans
+  * reasonable
