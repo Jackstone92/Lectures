@@ -35,3 +35,28 @@
 
 # Special value
 **NIL** - the immutable empty list
+
+
+# Implementation
+
+
+| 3 | Ptr |
+|---| --- |
+
+&darr;
+
+| 4 | Ptr |
+|---| --- |
+
+&darr;
+
+| 25 | Ptr |
+|---| --- |
+
+&darr;
+
+| -6 | / |
+|--- |---|
+
+- **Ptr (Pointer)** points to L  
+- **L'** Stores the number of elements  
