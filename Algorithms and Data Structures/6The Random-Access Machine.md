@@ -46,3 +46,12 @@ function Exercise1(v)
   return b
 end function
 ```
+
+# The point of all this
+In software design and implementation, we often want to:
+- minimise the time the program takes to run
+- minimise the resources (eg. memory, disk space) the program consumes
+
+The Random-Access Machine model
+- simple enough to compute answers, at least approximately
+- realistic enough to be a guide to real computers
