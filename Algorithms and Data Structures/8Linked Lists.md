@@ -15,22 +15,22 @@
 > A linked list is a sequential collection of data
 
 # Operations
-**First**
+### **First**
 - return the first element of the list  
 
-**Rest**
+### **Rest**
 - return the list with the first element removed  
 
-**Cons[o]**
+### **Cons[o]**
 - return a new list whose first is o and whose rest is the list  
 
-**Set-first![o]**
+### **Set-first![o]**
 - set the first of the list to o  
 
-**Set-rest![l]**
+### **Set-rest![l]**
 - set the rest of the list to l  
 
-**Null?**
+### **Null?**
 - return true if the list is the empty list  
 
 # Special value
