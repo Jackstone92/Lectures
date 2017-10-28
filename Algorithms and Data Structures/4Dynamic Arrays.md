@@ -47,3 +47,15 @@ To:
 
 | 5 | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
+
+Pseudocode:
+```
+Require: A :: dynamic array
+  function push!(A,k)
+    if length(left(A)) = right(A) then
+      extend(A)
+    end if
+    A[right(A)] ← k
+    right(A) ← right(A) + 1
+  end function
+```
