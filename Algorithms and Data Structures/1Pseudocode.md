@@ -10,7 +10,6 @@ Pseudocode is an informal, high-level description of the operation of a computer
   * walk-through by humans
   * reasonable
 
-
 ---
 
 # General
