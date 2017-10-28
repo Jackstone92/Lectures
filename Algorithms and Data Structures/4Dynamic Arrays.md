@@ -100,4 +100,4 @@ Require: A :: dynamic array
 - when extending storage array:
   - as above plus...
   - ... copy existing contents to new array
-    - **⇒ Θ(N)*
+    - **⇒ Θ(N)**
