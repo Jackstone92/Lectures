@@ -26,9 +26,9 @@
 
 In pseudocode:
 ```
-length LENGTH(v)
-select[k] v[k]
-store![o,k] v[k] ← o
+length: LENGTH(v)
+select[k]: v[k]
+store![o,k]: v[k] ← o
 ```
 
 ## Non-vector Operations
@@ -43,9 +43,9 @@ store![o,k] v[k] ← o
 	| 0 | 1 | 2 | 3 | 4 | $ |
 	|---|---|---|---|---|---|
 
-	*	**Iterates through string until the sentinel($)** to get the length
+  *	**Iterates through string until the sentinel($)** to get the length
 
-* 	length-data (everything else)
+* length-data (everything else)
 
 	| L | 0 | 1 | 2 | 3 | 4 |
 	|---|---|---|---|---|---|
