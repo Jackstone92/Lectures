@@ -83,7 +83,12 @@ Require: A :: dynamic array
     end for
     left(A) ← new
   end function
-```
+```  
+
+What should NEWLENGTH(n) be?
+- return n + C (eg. n+10)?
+- return C x n (eg. 2xn)?
+return  n<sup>C</sup> (eg. n<sup>2</sup>)?  
 
 # Complexity analysis
 **length, select, store!**
