@@ -23,5 +23,8 @@
 - return the endmost element, decreasing the size of the dynamic array by 1
 
 # Implementation
-| Pointer | L' (Store the number of the elements) |
-|   ---   |                 ---                   |
+Pointer points to L  
+L' Stores the number of elements  
+
+| Pointer | L'|
+|   ---   | --- |
