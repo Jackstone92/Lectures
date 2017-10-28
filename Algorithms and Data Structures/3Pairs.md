@@ -1,5 +1,7 @@
 # Pairs
 
+---
+
 # Motivation
 - Can (in principle) build all record types out of Pairs
 - Basic building block
