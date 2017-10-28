@@ -131,7 +131,7 @@ for 0 ≤ i < 10 do
 end for
 ```
 
-### `creak`
+### `break`
 Use **break** to finish the innermost loop:
 ```
 x ← 0
