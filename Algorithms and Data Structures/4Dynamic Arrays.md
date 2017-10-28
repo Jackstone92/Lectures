@@ -88,7 +88,7 @@ Require: A :: dynamic array
 What should NEWLENGTH(n) be?
 - return n + C (eg. n+10)?
 - return C x n (eg. 2xn)?
-return  n<sup>C</sup> (eg. n<sup>2</sup>)?  
+- return  n<sup>C</sup> (eg. n<sup>2</sup>)?  
 
 # Complexity analysis
 **length, select, store!**
