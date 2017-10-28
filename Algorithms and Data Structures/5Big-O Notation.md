@@ -86,3 +86,4 @@
 |  Rank | Time complexity |
 |  ---  |       ---       |
 |   1.  |       Θ(1)      |
+|   2.  |    Θ(log(n))    |
