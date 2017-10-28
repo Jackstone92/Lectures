@@ -86,3 +86,8 @@ Require: A :: dynamic array
     left(A) ← new
   end function
 ```
+
+# Complexity analysis
+**length, select, store!**
+- each is a pointer read (to get the storage array) and a Θ(1) array operation  
+**⇒ Θ(1)**
