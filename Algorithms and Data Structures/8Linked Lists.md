@@ -16,17 +16,17 @@
 
 # Operations
 **First**
-- return the first element of the list
+- return the first element of the list  
 **Rest**
-- return the list with the first element removed
+- return the list with the first element removed  
 **Cons[o]**
-- return a new list whose first is o and whose rest is the list
+- return a new list whose first is o and whose rest is the list  
 **Set-first![o]**
-- set the first of the list to o
+- set the first of the list to o  
 **Set-rest![l]**
-- set the rest of the list to l
+- set the rest of the list to l  
 **Null?**
-- return true if the list is the empty list
+- return true if the list is the empty list  
 
 # Special value
 **NIL** - the immutable empty list
