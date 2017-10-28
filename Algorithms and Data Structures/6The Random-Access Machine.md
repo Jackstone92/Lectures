@@ -32,14 +32,14 @@ The number of memory locations used
 # Example
 ```
 function Exercise1(v)
-  a ← 0; b ← 0              // O(n)
-  for 0 ≤ i < length(v) do
-    if v[i] > b then
-      if v[i] > a then
-        b ← a
-        a ← v[i]
+  a ← 0; b ← 0                                // 2  O(2)
+  for 0 ≤ i < length(v) do                    // n = Length(v)  O(n)
+    if v[i] > b then                          // n  O(n)
+      if v[i] > a then                        // up to n  O(n)
+        b ← a                                 // up to n  O(n)
+        a ← v[i]                              // up to n  O(n)
       else
-        b ← v[i]
+        b ← v[i]                              // up to n  O(n)
       end if
     end if
   end for
