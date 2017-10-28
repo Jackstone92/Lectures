@@ -21,7 +21,7 @@ Variable assignment is indicated by the `<-` symbol:
 Variables in pseudocode do not need to be declared
 
 ### Vertical space
-Statements separated by vertical space happen in sequence
+Statements separated by vertical space happen in sequence:
 ```
 x <- 1
 y <- x
@@ -32,4 +32,18 @@ x <- 2
 Alternatively, semicolons separate statements in a sequence:
 ```
 x <- 1; y <- x; x <- 2
+```
+
+---
+
+# Conditionals
+## if
+
+Use **if then** to decide whether to do a sequence or not.
+End the sequence with **end if**
+```
+x <- 0
+if x > -6 then
+  x <- x + 1
+end if
 ```
