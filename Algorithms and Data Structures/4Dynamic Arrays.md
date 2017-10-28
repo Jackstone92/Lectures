@@ -29,8 +29,6 @@
 - **Ptr (Pointer)** points to L  
 - **L'** Stores the number of elements  
 
----
-
 # Push!
 From:  
 
