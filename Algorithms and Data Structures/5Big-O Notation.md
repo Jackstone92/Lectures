@@ -16,10 +16,10 @@
 `𝑓 (𝑥) = 𝑂(𝑔(𝑥)) or𝑓 (𝑥) ∈ 𝑂(𝑔(𝑥))`
 
 Informally:
-- 𝑓 (𝑥) grows no faster than 𝑔(𝑥)
+- `𝑓(𝑥)` grows no faster than `𝑔(𝑥)`
 
 Heuristically:
-- as 𝑥 → ∞, 𝑓 (𝑥) is bounded above by some constant times 𝑔(𝑥)
+- as `𝑥 → ∞, 𝑓(𝑥)` is bounded above by some constant times `𝑔(𝑥)`
 
 Formally:
-- ∃(𝐶 ∈ ℝ+) ∶ ∃(𝑥<sub>0</sub> ∈ ℝ) ∶ ∀(𝑥 > 𝑥<sub>0</sub>) ∶ 𝑓 (𝑥) < 𝐶𝑔(𝑥)
+- `∃(𝐶 ∈ ℝ+) ∶ ∃(𝑥<sub>0</sub> ∈ ℝ) ∶ ∀(𝑥 > 𝑥<sub>0</sub>) ∶ 𝑓 (𝑥) < 𝐶𝑔(𝑥)`
