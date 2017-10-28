@@ -51,3 +51,22 @@ store![o,k]: v[k] ← o
 	|---|---|---|---|---|---|
 
 	*	Read the **length slot(L)** to get the length.
+
+---
+
+# Complexity analysis
+How much work do operations take?
+
+## select, store!
+1. offset calculation: base address + k x element size
+2. pointer read (select) or write (store!)
+
+## length
+Depends on implementation strategy:
+**Sentinel**
+1. initialise count to 0, position to 0
+2. iterate position through string, incrementing count until the sentinel ($)
+3. return count
+
+**Length-data**
+1. read the length slot
