@@ -16,7 +16,9 @@ Pseudocode is an informal, high-level description of the operation of a computer
 
 ## Variable assignment
 Variable assignment is indicated by the `<-` symbol:
- - eg. x <- 1
+```
+eg. x <- 1
+```
 
 Variables in pseudocode do not need to be declared
 
@@ -39,7 +41,7 @@ x <- 1; y <- x; x <- 2
 # Conditionals
 ## if
 
-Use **if then** to decide whether to do a sequence or not.
+Use **if then** to decide whether to do a sequence or not.  
 End the sequence with **end if**
 ```
 x <- 0
