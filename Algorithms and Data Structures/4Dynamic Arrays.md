@@ -24,6 +24,7 @@
 
 # Implementation
 | Pointer | L'|
-|   ---   | --- |  
+|   ---   | --- |
+
 Pointer points to L  
 L' Stores the number of elements  
