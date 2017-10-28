@@ -90,4 +90,14 @@ Require: A :: dynamic array
 # Complexity analysis
 **length, select, store!**
 - each is a pointer read (to get the storage array) and a Θ(1) array operation  
-**⇒ Θ(1)**
+  - **⇒ Θ(1)**
+
+**push!**
+- usual case:
+  - increment length
+  - store value in storage array
+    - **⇒ Θ(1)**
+- when extending storage array:
+  - as above plus...
+  - ... copy existing contents to new array
+    - **⇒ Θ(N)*
