@@ -84,6 +84,5 @@
 # Common complexity classes
 
 |  Rank | Time complexity |
-|  ---  |       ---       |
 |   1.  |       Θ(1)      |
 |  ---  |       ---       |
