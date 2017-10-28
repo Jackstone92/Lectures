@@ -28,3 +28,21 @@ The number of constant time steps taken
 ### Space used
 The number of memory locations used
 - in addition to the space used by the input: "additional space used"
+
+# Example
+```
+function Exercise1(v)
+  a ← 0; b ← 0              // O(n)
+  for 0 ≤ i < length(v) do
+    if v[i] > b then
+      if v[i] > a then
+        b ← a
+        a ← v[i]
+      else
+        b ← v[i]
+      end if
+    end if
+  end for
+  return b
+end function
+```
