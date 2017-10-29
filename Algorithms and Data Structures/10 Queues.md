@@ -46,3 +46,25 @@ queue (again maintaining order of other elements)
 
 | Ptr to ("baz", 55) | Ptr (to below) |
 | --- | --- |
+
+
+# Complexity analysis
+### head, dequeue!, empty?
+- Exactly the same as stack operations top, pop!, empty?
+> ⇒ Θ(1)
+
+### enqueue!
+- Add to the **end** of the underlying list: N pointer reads
+> ⇒ Θ(N)
+
+# Better Implementation
+![](http://slideplayer.com/slide/5381188/17/images/21/Priority+Queue+Implementation.jpg)
+
+# Updated complexity analysis
+### head, dequeue!, empty?
+- As before, exactly the same as stack operations top, pop!, empty?
+> ⇒ Θ(1)
+
+### enqueue!
+- One pair allocation, two pointer writes
+> ⇒ Θ(1)
