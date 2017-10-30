@@ -91,7 +91,7 @@ What should NEWLENGTH(n) be?
 - return  n<sup>C</sup> (eg. n<sup>2</sup>)?  
 
 # Storage overhead
-The amount of unused space in the array 
+The amount of unused space in the array
 
 # Complexity analysis
 **length, select, store!**
