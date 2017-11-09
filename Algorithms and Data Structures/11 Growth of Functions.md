@@ -40,7 +40,7 @@ Given 𝑓(𝑛<sub>1</sub>) and 𝑓(𝑛<sub>2</sub>), estimate 𝑐 (and 𝐴
 - 𝑐 = (log(𝑓(𝑛<sub>1</sub>)) − log(𝑓(𝑛<sub>2</sub>))) / (𝑛<sub>1</sub> − 𝑛<sub>2</sub>)
 - 𝐴 = 𝑓(𝑛) / 2<sup>𝑐𝑛</sup>
 
-# Examples from quizzes:
+# Examples from tests:
 ## The function f(N) is proportional to N. If the value of f(36) is 16, what is the value of f(72)?
 - Firstly:
   - 𝐴 = 𝑘𝑛
