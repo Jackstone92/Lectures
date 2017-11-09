@@ -39,3 +39,26 @@ Given 𝑓(𝑛<sub>1</sub>) and 𝑓(𝑛<sub>2</sub>), estimate 𝑐 (and 𝐴
 - log(𝑓(𝑛<sub>1</sub>) - 𝑓(𝑛<sub>2</sub>)) = 𝑐(𝑛<sub>1</sub> − 𝑛<sub>2</sub>)
 - 𝑐 = (log(𝑓(𝑛<sub>1</sub>)) − log(𝑓(𝑛<sub>2</sub>))) / (𝑛<sub>1</sub> − 𝑛<sub>2</sub>)
 - 𝐴 = 𝑓(𝑛) / 2<sup>𝑐𝑛</sup>
+
+# Examples from quizzes:
+## The function f(N) is proportional to N. If the value of f(36) is 16, what is the value of f(72)?
+- Firstly:
+  - 𝐴 = 𝑘𝑛
+  - 16 = 𝑘(36)
+  - 𝑘 = 16/36
+  - 𝑘 = 4/9
+- Then, to apply it to 𝑓(72):
+  - 𝐴 = 𝑘(72)
+  - **𝐴 = 32**
+
+## The function f(N) is proportional to N<sup>4</sup>. If the value of f(61) is 68, what is the value of f(244)?
+- Firstly:
+  - 𝐴 = 𝑘𝑛<sup>4</sup>
+  - 68 = 𝑘(61<sup>4</sup>)
+  - 𝑘 = 68/13845841
+  - 𝑘 = 4.911222077x10<sup>-6</sup>
+- Then, to apply it to 𝑓(244):
+  - 𝐴 = 𝑘(244<sup>4</sup>)
+  - **𝐴 = 17408**
+
+# To solve problems when both functions are given, solve for 𝑘 and check what N is proportional to!
