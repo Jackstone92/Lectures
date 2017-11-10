@@ -25,6 +25,7 @@ ORDER BY lastname, firstname ASC;
 - For example:
 
 Customer Table:
+
 | id | firstname | lastname |
 | --- | --- | --- |
 | 0 | John | Smith |
@@ -32,6 +33,7 @@ Customer Table:
 | 2 | Abdul | Kahn |
 
 Order Table:
+
 | id | customer_id | eat_in |
 | --- | --- | --- |
 | 0 | 1 | 1 |
@@ -45,6 +47,7 @@ ON Customer.id=Order.customer_id;
 ```
 
 Results in:
+
 | John | Smith | 0 |
 | --- | --- | --- |
 | Maria | Gonzales | 1 |
@@ -57,6 +60,7 @@ ON Customer.id=Order.customer_id;
 ```
 
 Results in:
+
 | John | Smith | 0 |
 | --- | --- | --- |
 | Maria | Gonzales | 1 |
@@ -181,6 +185,7 @@ WHERE band_id IS NULL;
 ```
 
 ## Full list:
+
 | Name | Description |
 | --- | --- |
 | BETWEEN... AND... | Check whether a value is within a range of values |
