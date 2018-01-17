@@ -60,33 +60,3 @@ function computePrefix(P)
   return π
 end function
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
